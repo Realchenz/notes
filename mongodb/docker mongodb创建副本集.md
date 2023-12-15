@@ -1,4 +1,4 @@
-## docker
+## docker mongodb 创建副本集 replica set
 1. 创建网络
     ```shell
     docker network create mongoCluster

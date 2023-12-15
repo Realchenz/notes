@@ -1,0 +1,10 @@
+/etc/resolv.conf - DNS 配置文件，优先级低于网卡配置文件
+/etc/hosts - 主机名与 IP 地址对应的配置文件
+/etc/hostname - 主机名配置文件
+/etc/fstab - 文件系统挂载配置文件
+/etc/rc.local - 系统启动时自动执行的脚本文件
+/etc/profile - 环境变量配置文件
+/etc/inittab - 系统初始化配置文件
+/etc/bashrc - bash shell 的配置文件
+/etc/motd - 系统登录后显示的信息
+/etc/issue - 系统登录前显示的信息

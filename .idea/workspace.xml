@@ -4,17 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7aeb9a-ceb0-4adc-97b7-f7fd536a1b9a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker mongodb rs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker指令.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall docker 组件部署.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.iml" afterDir="false" />
+    <list default="true" id="6c7aeb9a-ceb0-4adc-97b7-f7fd536a1b9a" name="更改" comment="regular commit">
+      <change afterPath="$PROJECT_DIR$/Linux/etc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux/命令" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network/TCP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/单例模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/spring data.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/ElasticSearch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/IO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/JUC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/JVM.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Kafka.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/MicroService.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Mongo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Mybatis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Mysql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Spring Cloud.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Spring boot.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/Spring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/八股文/redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker mongodb rs.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/docker mongodb创建副本集.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker指令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall docker 组件部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/mall项目docker 组件部署.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +41,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Yu9lZyTPxrprNTi47nbKgWASVP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,23 +53,40 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Network" />
+      <recent name="$PROJECT_DIR$/spring" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/mongodb" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-301ddabe" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -64,11 +95,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701364749269</updated>
-      <workItem from="1701364751572" duration="3562000" />
+      <workItem from="1701364751572" duration="10442000" />
+      <workItem from="1701398447445" duration="153000" />
+      <workItem from="1701489580905" duration="822000" />
+      <workItem from="1701627453331" duration="23969000" />
+      <workItem from="1701743819279" duration="4159000" />
+      <workItem from="1702068593711" duration="14000" />
+      <workItem from="1702068613179" duration="28942000" />
+      <workItem from="1702487122083" duration="17697000" />
     </task>
+    <task id="LOCAL-00001" summary="regular commit">
+      <option name="closed" value="true" />
+      <created>1701369199154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701369199154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="regular commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="regular commit" />
   </component>
 </project>

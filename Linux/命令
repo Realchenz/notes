@@ -1,0 +1,7 @@
+# find . -name "*.log" -mtime +30 -type f -size +100M | xargs rm -rf{} \; 删除30天前的日志文件
+# uptime
+ `14:25:07 up  5:10,  2 users,  load average: 0.42, 0.35, 0.29`
+# sed -n '/ERP/p' 只显示sed匹配到的行。其余行不显示，/p表示打印匹配到的行
+fseek()函数用于移动文件指针到指定位置
+lseek()函数用于移动文件指针到指定位置
+tcpdump -i eth0 -nn 'tcp port 80 and host 10.1.1.180' 监听网卡eth0上的80端口的数据包，且数据包的源或目的主机为
